@@ -6,7 +6,7 @@ from logic import get_url_extension, get_headlines
 class LogicUnitTests(unittest.TestCase):
     def test_simple_url(self):
         result = get_url_extension("http://example.com")
-        self.assertEqual(result, "com")
+        self.assertEqual(result, "cam")
 
     def test_non_string_url(self):
         with self.assertRaises(AssertionError):
