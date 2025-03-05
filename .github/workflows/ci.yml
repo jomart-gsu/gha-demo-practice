@@ -35,7 +35,7 @@ jobs:
           architecture: x64
           
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests python-dotenv
         
       - name: Install linter
         run: pip install pylint
